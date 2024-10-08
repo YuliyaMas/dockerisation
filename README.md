@@ -22,13 +22,15 @@ docker run -p 5000:5000 -v /path<here is your path to the storage on local disk>
 Open a browser http://localhost:5000
 
 ## Project Structure
+```
 /dockerisation
   ├── app.py              # Flask app 
   ├── Dockerfile          # Docker configuration
   ├── requirements.txt    # Librairies
   └── templates/
       └── index.html      # HTML file with form
-  ├── uploads/            # Uploaded files              
+  ├── uploads/            # Uploaded files
+```              
 
 
 ## Persistent Storage
