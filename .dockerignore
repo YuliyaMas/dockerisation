@@ -1,0 +1,7 @@
+# Exclure l'environnement virtuel de Docker
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+/uploads
